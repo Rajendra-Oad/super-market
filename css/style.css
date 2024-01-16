@@ -236,10 +236,8 @@ footer .footer-content ul li {
     line-height: 35px;
 }
 
-footer .footer-copyright-content p span {
+footer .footer-copyright-content p span.designed {
     color: #FD9125 !important;
-    font-weight: bold;
-    letter-spacing: 1.5px;
 }
 
 footer .footer-content p.row .text-color {
@@ -247,7 +245,7 @@ footer .footer-content p.row .text-color {
 }
 
 footer .footer-content p span:first-child {
-    border: 1.5px solid #FD9125;
+    border: 1px solid #FD9125;
     color: #FD9125;
     border-radius: 50%;
     transition: border-radius 0.8s,background-color 0.5s;
@@ -293,7 +291,7 @@ footer .footer-bottom {
     }
     #banner img {
         width: 992px !important;
-        transform: translate(-25%,0%);
+        transform: translate(-32%,0%);
     }
     #top-nav-bar i {
         font-size: 14px !important;
