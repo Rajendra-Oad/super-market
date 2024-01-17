@@ -244,9 +244,20 @@ footer .footer-content p.row .text-color {
     color: gray;
 }
 
+footer .footer-content .icons i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 footer .footer-content p span:first-child {
     border: 1px solid #FD9125;
     color: #FD9125;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 50%;
     transition: border-radius 0.8s,background-color 0.5s;
 }
@@ -277,6 +288,64 @@ footer .footer-content p span:hover .text-color {
 
 footer .footer-bottom {
     background-color: #393738;
+    user-select: none;
+}
+
+footer .footer-bottom .brand-icons i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px !important;
+    height: 35px !important;
+    border: 1px solid #ffffff;
+    margin: 0 0.2rem;
+    border-radius: 50%;
+    color: #ffffff;
+}
+
+footer .footer-bottom .payment-icons i {
+    font-size: 35px;
+    margin: 0 0.15rem;
+}
+
+footer .footer-bottom .payment-icons .fa-cc-visa {
+    color: #E59804;
+    background-color: #ffffff;
+    height: 12px;
+    width: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .footer-bottom .payment-icons .fa-cc-paypal {
+    color: #34557e;
+    background-color: #ffffff;
+    height: 12px;
+    width: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .footer-bottom .payment-icons .fa-cc-mastercard {
+    color: #667CC4;
+    background-color: #ffffff;
+    height: 24.5px;
+    width: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .footer-bottom .payment-icons .fa-cc-apple-pay {
+    color: #000000;
+    background-color: #ffffff;
+    height: 24.5px;
+    width: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /* FOOTER-SECTION-ENDS */
 @media (max-width:992px) {
@@ -287,7 +356,7 @@ footer .footer-bottom {
 
 @media (max-width:576px) {
     body {
-        font-size: 14px !important;
+        font-size: 16px !important;
     }
     #banner img {
         width: 992px !important;
