@@ -366,7 +366,7 @@ footer .footer-bottom .payment-icons .fa-cc-apple-pay {
         font-size: 14px !important;
     }
 }
-@media (max-width:400px) {
+@media (max-width:340px) {
     body {
         font-size: 12px !important;
     }
@@ -377,6 +377,6 @@ footer .footer-bottom .payment-icons .fa-cc-apple-pay {
         font-size: 14px !important;
     }
     #top-sells .nav-item a.nav-link {
-        font-size: 14px !important;
+        font-size: 13px !important;
     }
 }
