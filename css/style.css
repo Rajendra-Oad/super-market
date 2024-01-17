@@ -226,6 +226,10 @@ footer {
     background-color: #2B292A;
 }
 
+footer .title-head {
+    font-weight: 600;
+}
+
 footer .footer-content ul {
     padding-left:  1em !important;
     color: #FD9125;
@@ -356,7 +360,7 @@ footer .footer-bottom .payment-icons .fa-cc-apple-pay {
 
 @media (max-width:576px) {
     body {
-        font-size: 16px !important;
+        font-size: 13px !important;
     }
     #banner img {
         width: 992px !important;
@@ -365,10 +369,13 @@ footer .footer-bottom .payment-icons .fa-cc-apple-pay {
     #top-nav-bar i {
         font-size: 14px !important;
     }
+    #top-sells .nav-item a.nav-link {
+        font-size: 14px !important;
+    }
 }
-@media (max-width:340px) {
+@media (max-width:400px) {
     body {
-        font-size: 12px !important;
+        font-size: 11px !important;
     }
     body .card {
         width: 85% !important;
@@ -376,7 +383,13 @@ footer .footer-bottom .payment-icons .fa-cc-apple-pay {
     #top-nav-bar i {
         font-size: 14px !important;
     }
+    #top-sells {
+        font-size: 13.5px;
+    }
     #top-sells .nav-item a.nav-link {
         font-size: 13px !important;
+    }
+    #top-sells button {
+        font-size: 13px;
     }
 }
