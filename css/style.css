@@ -362,6 +362,9 @@ footer .footer-bottom .payment-icons .fa-cc-apple-pay {
     body {
         font-size: 13px !important;
     }
+    #nav-bar .navbar-nav .nav-item a.nav-link  {
+        font-size: 15px !important;
+    }
     #banner img {
         width: 992px !important;
         transform: translate(-32%,0%);
